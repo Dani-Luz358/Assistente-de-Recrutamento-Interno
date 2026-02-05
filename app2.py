@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """
 Assistente de Recrutamento Interno
-Desenvolvido por Elaine
+Desenvolvido por Danielle Luz
 """
 
 import streamlit as st
@@ -52,4 +52,5 @@ if st.button("Enviar"):
         st.markdown(resposta)
 
 st.markdown("---")
+
 st.caption("Desenvolvido por Danielle Luz • Assistente de IA para Recrutamento Interno")
