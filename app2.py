@@ -40,7 +40,9 @@ def responder_pergunta(pergunta):
 st.title("Assistente de Recrutamento Interno - Atração de Talentos 🧠")
 st.markdown("""
 Bem-vindo ao **Assistente de Recrutamento Interno**!
+
 Aqui você pode tirar dúvidas sobre a política de recrutamento e seleção, regras gerais, elegibilidade e divulgação de vagas.
+
 Dica: Tente usar palavras como 'divulgação', 'elegibilidade', 'regras gerais' ou 'política'.
 """)
 
@@ -55,4 +57,5 @@ if st.button("Enviar"):
 st.markdown("---")
 
 st.caption("Desenvolvido por Danielle Luz • Assistente de IA para Recrutamento Interno")
+
 
