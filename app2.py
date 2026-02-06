@@ -34,7 +34,7 @@ def responder_pergunta(pergunta):
     for chave, resposta in regras.items():
         if chave in pergunta.lower():
             return resposta
-    return "Desculpe, não encontrei uma regra específica. Tente usar palavras como 'divulgação', 'elegibilidade', 'regras gerais' ou 'política'."
+    return "Desculpe, não encontrei uma regra específica. Tente usar palavras como divulgação, elegibilidade, regras gerais ou política."
 
 # Interface Streamlit
 st.title("Assistente de Recrutamento Interno - Atração de Talentos 🧠")
@@ -43,7 +43,7 @@ Bem-vindo ao **Assistente de Recrutamento Interno**!
 
 Aqui você pode tirar dúvidas sobre a política de recrutamento e seleção, regras gerais, elegibilidade e divulgação de vagas.
 
-Dica: Tente usar palavras como 'divulgação', 'elegibilidade', 'regras gerais' ou 'política'.
+Dica: Tente usar palavras como divulgação, elegibilidade, regras gerais ou política.
 """)
 
 st.subheader("Faça sua pergunta")
@@ -57,5 +57,6 @@ if st.button("Enviar"):
 st.markdown("---")
 
 st.caption("Desenvolvido por Danielle Luz • Assistente de IA para Recrutamento Interno")
+
 
 
