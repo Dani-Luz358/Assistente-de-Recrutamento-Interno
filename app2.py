@@ -37,7 +37,7 @@ def responder_pergunta(pergunta):
     return "Desculpe, não encontrei uma regra específica. Tente usar palavras como divulgação, elegibilidade, regras gerais ou política."
 
 # Interface Streamlit
-st.title("Assistente de Recrutamento Interno - Atração de Talentos 🧠")
+st.title("Assistente de Recrutamento Interno - Atração de Talentos 🤖")
 st.markdown("""
 Bem-vindo ao **Assistente de Recrutamento Interno**!
 
@@ -57,6 +57,7 @@ if st.button("Enviar"):
 st.markdown("---")
 
 st.caption("Desenvolvido por Danielle Luz • Assistente de IA para Recrutamento Interno")
+
 
 
 
